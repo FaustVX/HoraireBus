@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:helpers="using:App2.Helpers"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DataContext="{d:DesignData MainPage}">
+	<Page.Resources>
+        <helpers:TimeSpanConverter x:Key="TimeSpanConverter"/>
+    </Page.Resources>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<ComboBox Grid.Row="0" ItemsSource="{Binding Cities}" SelectedItem="{Binding SelectedCity, Mode = TwoWay}">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding Name}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<ComboBox Grid.Column="0" ItemsSource="{Binding PhysicalStops}" SelectedItem="{Binding PhysicalStopStart, Mode = TwoWay}">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding Name}"/>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+			<AppBarButton Grid.Column="1" Icon="Switch" Tapped="SwitchDestination"/>
+			<ComboBox Grid.Column="2" ItemsSource="{Binding PhysicalStops}" SelectedItem="{Binding PhysicalStopStop, Mode = TwoWay}">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding Name}"/>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+		</Grid>
+		<ComboBox Grid.Row="2" ItemsSource="{Binding TimesStart}" SelectedItem="{Binding SelectedTime, Mode=TwoWay}">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding Converter={StaticResource TimeSpanConverter}}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<ComboBox Grid.Row="3" ItemsSource="{Binding BusPaths}" SelectedItem="{Binding SelectedBusPath, Mode = TwoWay}">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding Summary}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<TextBlock Grid.Row="4" Text="{Binding BusPathInfos, Mode=OneWay}"/>
+		<ListBox Grid.Row="5" ItemsSource="{Binding SelectedBusPath}"/>
+	</Grid>
+</Page>

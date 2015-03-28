@@ -1,0 +1,375 @@
+﻿<Cities>
+  <City name="Vitré">
+    <PhysicalStops>
+      <PhysicalStop id="V0" name="Gare" />
+      <PhysicalStop id="V1" name="Saint-Martin" />
+      <PhysicalStop id="V2" name="Landais" />
+      <PhysicalStop id="V3" name="Dojo" />
+      <PhysicalStop id="V4" name="Hugo" />
+      <PhysicalStop id="V5" name="Chesnier" />
+      <PhysicalStop id="V6" name="Botrel" />
+      <PhysicalStop id="V7" name="Debussy" />
+      <PhysicalStop id="V8" name="La Motte" />
+      <PhysicalStop id="V9" name="Route des eaux" />
+      <PhysicalStop id="V10" name="Réservoir Plagué" />
+      <PhysicalStop id="V11" name="Pierre et Marie Curie" />
+      <PhysicalStop id="V12" name="Haye Robert" />
+      <PhysicalStop id="V13" name="Lactalis" />
+    </PhysicalStops>
+    <BusLines>
+      <BusLine name="5">
+        <BusStop stop="V0" time="7:15" />
+        <BusStop stop="V1" time="7:16" />
+        <BusStop stop="V2" time="7:17" />
+        <BusStop stop="V3" time="7:18" />
+        <BusStop stop="V4" time="7:18" />
+        <BusStop stop="V5" time="7:19" />
+        <BusStop stop="V6" time="7:20" />
+        <BusStop stop="V7" time="7:20" />
+        <BusStop stop="V8" time="7:21" />
+        <BusStop stop="V9" time="7:21" />
+        <BusStop stop="V10" time="7:23" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="7:53" />
+        <BusStop stop="V10" time="8:00" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="8:12" />
+        <BusStop stop="V1" time="8:13" />
+        <BusStop stop="V2" time="8:14" />
+        <BusStop stop="V3" time="8:15" />
+        <BusStop stop="V4" time="8:15" />
+        <BusStop stop="V5" time="8:16" />
+        <BusStop stop="V6" time="8:17" />
+        <BusStop stop="V7" time="8:17" />
+        <BusStop stop="V8" time="8:18" />
+        <BusStop stop="V9" time="8:18" />
+        <BusStop stop="V10" time="8:20" />
+        <BusStop stop="V11" time="8:21" />
+        <BusStop stop="V12" time="8:23" />
+        <BusStop stop="V13" time="8:25" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="9:25" />
+        <BusStop stop="V1" time="9:26" />
+        <BusStop stop="V2" time="9:27" />
+        <BusStop stop="V3" time="9:28" />
+        <BusStop stop="V4" time="9:28" />
+        <BusStop stop="V5" time="9:29" />
+        <BusStop stop="V6" time="9:30" />
+        <BusStop stop="V7" time="9:30" />
+        <BusStop stop="V8" time="9:31" />
+        <BusStop stop="V9" time="9:31" />
+        <BusStop stop="V10" time="9:32" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="10:30" />
+        <BusStop stop="V1" time="10:31" />
+        <BusStop stop="V2" time="10:32" />
+        <BusStop stop="V3" time="10:33" />
+        <BusStop stop="V4" time="10:33" />
+        <BusStop stop="V5" time="10:34" />
+        <BusStop stop="V6" time="10:35" />
+        <BusStop stop="V7" time="10:35" />
+        <BusStop stop="V8" time="10:36" />
+        <BusStop stop="V9" time="0:00" />
+        <BusStop stop="V10" time="10:37" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="11:30" />
+        <BusStop stop="V1" time="11:31" />
+        <BusStop stop="V2" time="11:32" />
+        <BusStop stop="V3" time="11:33" />
+        <BusStop stop="V4" time="11:33" />
+        <BusStop stop="V5" time="11:34" />
+        <BusStop stop="V6" time="11:35" />
+        <BusStop stop="V7" time="11:35" />
+        <BusStop stop="V8" time="11:36" />
+        <BusStop stop="V9" time="11:36" />
+        <BusStop stop="V10" time="11:38" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="12:10" />
+        <BusStop stop="V1" time="12:11" />
+        <BusStop stop="V2" time="12:12" />
+        <BusStop stop="V3" time="12:13" />
+        <BusStop stop="V4" time="12:13" />
+        <BusStop stop="V5" time="12:14" />
+        <BusStop stop="V6" time="12:15" />
+        <BusStop stop="V7" time="12:15" />
+        <BusStop stop="V8" time="12:16" />
+        <BusStop stop="V9" time="12:16" />
+        <BusStop stop="V10" time="12:18" />
+        <BusStop stop="V11" time="12:19" />
+        <BusStop stop="V12" time="12:21" />
+        <BusStop stop="V13" time="12:23" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="13:05" />
+        <BusStop stop="V1" time="13:06" />
+        <BusStop stop="V2" time="13:07" />
+        <BusStop stop="V3" time="13:08" />
+        <BusStop stop="V4" time="13:08" />
+        <BusStop stop="V5" time="13:09" />
+        <BusStop stop="V6" time="13:10" />
+        <BusStop stop="V7" time="13:10" />
+        <BusStop stop="V8" time="13:11" />
+        <BusStop stop="V9" time="13:11" />
+        <BusStop stop="V10" time="13:13" />
+        <BusStop stop="V11" time="13:14" />
+        <BusStop stop="V12" time="13:16" />
+        <BusStop stop="V13" time="13:18" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="14:56" />
+        <BusStop stop="V1" time="14:57" />
+        <BusStop stop="V2" time="14:58" />
+        <BusStop stop="V3" time="15:00" />
+        <BusStop stop="V4" time="15:01" />
+        <BusStop stop="V5" time="15:02" />
+        <BusStop stop="V6" time="15:02" />
+        <BusStop stop="V7" time="15:03" />
+        <BusStop stop="V8" time="15:03" />
+        <BusStop stop="V9" time="15:04" />
+        <BusStop stop="V10" time="15:05" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="15:45" />
+        <BusStop stop="V1" time="15:46" />
+        <BusStop stop="V2" time="15:47" />
+        <BusStop stop="V3" time="15:49" />
+        <BusStop stop="V4" time="15:50" />
+        <BusStop stop="V5" time="15:51" />
+        <BusStop stop="V6" time="15:51" />
+        <BusStop stop="V7" time="15:52" />
+        <BusStop stop="V8" time="15:52" />
+        <BusStop stop="V9" time="15:53" />
+        <BusStop stop="V10" time="15:54" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="17:05" />
+        <BusStop stop="V1" time="17:06" />
+        <BusStop stop="V2" time="17:07" />
+        <BusStop stop="V3" time="17:08" />
+        <BusStop stop="V4" time="17:08" />
+        <BusStop stop="V5" time="17:09" />
+        <BusStop stop="V6" time="17:10" />
+        <BusStop stop="V7" time="17:10" />
+        <BusStop stop="V8" time="17:11" />
+        <BusStop stop="V9" time="17:11" />
+        <BusStop stop="V10" time="17:13" />
+        <BusStop stop="V11" time="17:14" />
+        <BusStop stop="V12" time="17:16" />
+        <BusStop stop="V13" time="17:18" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="18:02" />
+        <BusStop stop="V1" time="18:03" />
+        <BusStop stop="V2" time="18:04" />
+        <BusStop stop="V3" time="18:05" />
+        <BusStop stop="V4" time="18:05" />
+        <BusStop stop="V5" time="18:06" />
+        <BusStop stop="V6" time="18:07" />
+        <BusStop stop="V7" time="18:07" />
+        <BusStop stop="V8" time="18:08" />
+        <BusStop stop="V9" time="18:08" />
+        <BusStop stop="V10" time="18:10" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V0" time="18:50" />
+        <BusStop stop="V1" time="18:51" />
+        <BusStop stop="V2" time="18:52" />
+        <BusStop stop="V3" time="18:53" />
+        <BusStop stop="V4" time="18:53" />
+        <BusStop stop="V5" time="18:54" />
+        <BusStop stop="V6" time="18:55" />
+        <BusStop stop="V7" time="18:55" />
+        <BusStop stop="V8" time="18:56" />
+        <BusStop stop="V9" time="18:56" />
+        <BusStop stop="V10" time="18:57" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="7:23" />
+        <BusStop stop="V9" time="7:24" />
+        <BusStop stop="V8" time="7:25" />
+        <BusStop stop="V7" time="7:25" />
+        <BusStop stop="V6" time="7:26" />
+        <BusStop stop="V5" time="7:26" />
+        <BusStop stop="V4" time="7:27" />
+        <BusStop stop="V3" time="7:27" />
+        <BusStop stop="V2" time="7:28" />
+        <BusStop stop="V1" time="7:29" />
+        <BusStop stop="V0" time="7:30" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="8:00" />
+        <BusStop stop="V9" time="8:02" />
+        <BusStop stop="V8" time="8:03" />
+        <BusStop stop="V7" time="8:03" />
+        <BusStop stop="V6" time="8:04" />
+        <BusStop stop="V5" time="8:04" />
+        <BusStop stop="V4" time="8:05" />
+        <BusStop stop="V3" time="8:06" />
+        <BusStop stop="V2" time="8:07" />
+        <BusStop stop="V1" time="8:08" />
+        <BusStop stop="V0" time="8:10" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V13" time="8:25" />
+        <BusStop stop="V12" time="8:27" />
+        <BusStop stop="V11" time="8:29" />
+        <BusStop stop="V10" time="8:30" />
+        <BusStop stop="V9" time="8:31" />
+        <BusStop stop="V8" time="8:32" />
+        <BusStop stop="V7" time="8:32" />
+        <BusStop stop="V6" time="8:33" />
+        <BusStop stop="V5" time="8:33" />
+        <BusStop stop="V4" time="8:34" />
+        <BusStop stop="V3" time="8:34" />
+        <BusStop stop="V2" time="8:35" />
+        <BusStop stop="V1" time="8:36" />
+        <BusStop stop="V0" time="8:37" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="9:32" />
+        <BusStop stop="V9" time="9:33" />
+        <BusStop stop="V8" time="9:34" />
+        <BusStop stop="V7" time="9:34" />
+        <BusStop stop="V6" time="9:35" />
+        <BusStop stop="V5" time="9:35" />
+        <BusStop stop="V4" time="9:36" />
+        <BusStop stop="V3" time="9:36" />
+        <BusStop stop="V2" time="9:37" />
+        <BusStop stop="V1" time="9:38" />
+        <BusStop stop="V0" time="9:40" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="10:37" />
+        <BusStop stop="V9" time="10:38" />
+        <BusStop stop="V8" time="10:39" />
+        <BusStop stop="V7" time="10:39" />
+        <BusStop stop="V6" time="10:40" />
+        <BusStop stop="V5" time="10:40" />
+        <BusStop stop="V4" time="10:41" />
+        <BusStop stop="V3" time="10:41" />
+        <BusStop stop="V2" time="10:42" />
+        <BusStop stop="V1" time="10:43" />
+        <BusStop stop="V0" time="10:45" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="11:38" />
+        <BusStop stop="V9" time="11:39" />
+        <BusStop stop="V8" time="11:40" />
+        <BusStop stop="V7" time="11:40" />
+        <BusStop stop="V6" time="11:41" />
+        <BusStop stop="V5" time="11:41" />
+        <BusStop stop="V4" time="11:42" />
+        <BusStop stop="V3" time="11:42" />
+        <BusStop stop="V2" time="11:43" />
+        <BusStop stop="V1" time="11:44" />
+        <BusStop stop="V0" time="11:45" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V13" time="12:23" />
+        <BusStop stop="V12" time="12:25" />
+        <BusStop stop="V11" time="12:27" />
+        <BusStop stop="V10" time="12:28" />
+        <BusStop stop="V9" time="12:29" />
+        <BusStop stop="V8" time="12:30" />
+        <BusStop stop="V7" time="12:30" />
+        <BusStop stop="V6" time="12:31" />
+        <BusStop stop="V5" time="12:31" />
+        <BusStop stop="V4" time="12:32" />
+        <BusStop stop="V3" time="12:32" />
+        <BusStop stop="V2" time="12:33" />
+        <BusStop stop="V1" time="12:34" />
+        <BusStop stop="V0" time="12:35" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V13" time="13:18" />
+        <BusStop stop="V12" time="13:20" />
+        <BusStop stop="V11" time="13:22" />
+        <BusStop stop="V10" time="13:23" />
+        <BusStop stop="V9" time="13:24" />
+        <BusStop stop="V8" time="13:25" />
+        <BusStop stop="V7" time="13:25" />
+        <BusStop stop="V6" time="13:26" />
+        <BusStop stop="V5" time="13:26" />
+        <BusStop stop="V4" time="13:27" />
+        <BusStop stop="V3" time="13:27" />
+        <BusStop stop="V2" time="13:28" />
+        <BusStop stop="V1" time="13:29" />
+        <BusStop stop="V0" time="13:30" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="15:05" />
+        <BusStop stop="V9" time="15:06" />
+        <BusStop stop="V8" time="15:06" />
+        <BusStop stop="V7" time="15:07" />
+        <BusStop stop="V6" time="15:07" />
+        <BusStop stop="V5" time="15:08" />
+        <BusStop stop="V4" time="15:08" />
+        <BusStop stop="V3" time="15:09" />
+        <BusStop stop="V2" time="15:10" />
+        <BusStop stop="V1" time="15:11" />
+        <BusStop stop="V0" time="15:13" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="15:54" />
+        <BusStop stop="V9" time="15:55" />
+        <BusStop stop="V8" time="15:56" />
+        <BusStop stop="V7" time="15:56" />
+        <BusStop stop="V6" time="15:57" />
+        <BusStop stop="V5" time="15:57" />
+        <BusStop stop="V4" time="15:58" />
+        <BusStop stop="V3" time="15:58" />
+        <BusStop stop="V2" time="15:59" />
+        <BusStop stop="V1" time="16:00" />
+        <BusStop stop="V0" time="16:02" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V13" time="17:18" />
+        <BusStop stop="V12" time="17:20" />
+        <BusStop stop="V11" time="17:22" />
+        <BusStop stop="V10" time="17:23" />
+        <BusStop stop="V9" time="17:24" />
+        <BusStop stop="V8" time="17:25" />
+        <BusStop stop="V7" time="17:25" />
+        <BusStop stop="V6" time="17:26" />
+        <BusStop stop="V5" time="17:26" />
+        <BusStop stop="V4" time="17:27" />
+        <BusStop stop="V3" time="17:27" />
+        <BusStop stop="V2" time="17:28" />
+        <BusStop stop="V1" time="17:29" />
+        <BusStop stop="V0" time="17:30" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="18:10" />
+        <BusStop stop="V9" time="18:11" />
+        <BusStop stop="V8" time="18:12" />
+        <BusStop stop="V7" time="18:12" />
+        <BusStop stop="V6" time="18:13" />
+        <BusStop stop="V5" time="18:13" />
+        <BusStop stop="V4" time="18:14" />
+        <BusStop stop="V3" time="18:14" />
+        <BusStop stop="V2" time="18:15" />
+        <BusStop stop="V1" time="18:16" />
+        <BusStop stop="V0" time="18:17" />
+      </BusLine>
+      <BusLine name="5">
+        <BusStop stop="V10" time="18:57" />
+        <BusStop stop="V9" time="18:58" />
+        <BusStop stop="V8" time="18:59" />
+        <BusStop stop="V7" time="18:59" />
+        <BusStop stop="V6" time="19:00" />
+        <BusStop stop="V5" time="19:00" />
+        <BusStop stop="V4" time="19:01" />
+        <BusStop stop="V3" time="19:01" />
+        <BusStop stop="V2" time="19:02" />
+        <BusStop stop="V1" time="19:03" />
+        <BusStop stop="V0" time="19:05" />
+      </BusLine>
+    </BusLines>
+  </City>
+</Cities>

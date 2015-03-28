@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Cities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" name="City">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PhysicalStops">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="2" maxOccurs="unbounded" name="PhysicalStop">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:ID" use="required" />
+                        <xs:attribute name="name" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="1" name="BusLines">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="unbounded" name="BusLine">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="2" maxOccurs="unbounded" name="BusStop">
+                            <xs:complexType>
+                              <xs:attribute name="time" use="required">
+                                <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                    <xs:pattern value="[0-2]?[0-9]:[0-5][0-9]"/>
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute name="stop" type="xs:IDREF" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
